@@ -181,6 +181,70 @@ h2 {
     margin-bottom: 45px;
 }
 
+.portfolio a {
+    color: #070707;
+}
+
 .portfolio figure:not(:last-child) {
     margin-bottom: 100px;
+}
+
+.page-footer {
+    padding: 115px 0 124px 0;
+}
+
+.page-footer h2 {
+    margin-bottom: 20px;
+}
+
+.page-footer .container > p {
+    margin-bottom: 30px;
+}
+
+.page-footer .btn {
+    width: 180px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    background-color: #070707;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 86px;
+}
+
+.page-footer__social {
+    width: 345px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.page-footer__social .q {
+    width: 41px;
+    height: 41px;
+    background: url("img/Group\ 2.svg") no-repeat;
+}
+.page-footer__social .w {
+    width: 41px;
+    height: 41px;
+    background: url("img/Group\ 8.svg") no-repeat;
+}
+.page-footer__social .e {
+    width: 41px;
+    height: 41px;
+    background: url("img/Group\ 9.svg") no-repeat;
+}
+.page-footer__social .r {
+    width: 41px;
+    height: 41px;
+    background: url("img/Group\ 10.svg") no-repeat;
+}
+
+.page-footer p:last-of-type {
+    margin: 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
 }
