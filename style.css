@@ -6,12 +6,85 @@ body {
     line-height: 22px;
 }
 
+h2 {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    margin: 0;
+}
+
 .container {
     width: 937px;
     margin: 0 auto;
+    text-align: center;
+}
+
+.page-header {
+    padding: 33px 0 105px 0;
 }
 
 .page-header__container {
     width: 944px;
     margin: 0 auto;
 }
+
+.page-header__nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 32px;
+}
+
+.page-header__nav ul a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.page-header__nav ul a:hover {
+    color: #070707;
+}
+
+.page-header__denis-novik {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 40px 0 30px 0;
+}
+
+.page-header__denis-novik h1 {
+    margin: 0;
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 47.3392px;
+    line-height: 59px;
+}
+
+.page-header__denis-novik p {
+    margin: 0;
+}
+
+.page-header__denis-novik p:last-child {
+    transform: rotate(-90deg) translate(35px, 30px);
+    
+}
+
+.page-header__denis-novik a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.page-header__denis-novik a:hover {
+    color: #070707;
+}
+
+.about-me {
+    background-color: #F6F6F6;
+    padding: 120px 0 107px 0;
+}
+
+.about-me h2 {
+    padding-bottom: 18px;
+}
+
