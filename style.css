@@ -45,6 +45,7 @@ h2 {
 
 .page-header__nav ul a:hover {
     color: #070707;
+    border-bottom: 3px solid #070707;
 }
 
 .page-header__denis-novik {
