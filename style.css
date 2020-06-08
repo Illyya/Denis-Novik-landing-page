@@ -14,18 +14,23 @@ h2 {
 }
 
 .container {
-    width: 937px;
+    max-width: 937px;
     margin: 0 auto;
     text-align: center;
 }
 
-.page-header {
-    padding: 33px 0 105px 0;
+img {
+    max-width: 100%;
 }
 
-.page-header__container {
-    width: 944px;
-    margin: 0 auto;
+.page-header .mobile {
+    display: none;
+}
+
+
+
+.page-header {
+    padding: 33px 0 105px 0;
 }
 
 .page-header__nav ul {
@@ -104,6 +109,15 @@ h2 {
 .skills__skills-items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.skills-items__photoshop,
+.skills-items__illustrator,
+.skills-items__after-effects,
+.skills-items__figma {
+    max-width: 100%;
 }
 
 .skills-items__photoshop::before {
@@ -266,4 +280,55 @@ h2 {
     font-size: 14px;
     line-height: 17px;
     color: #828282;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+    
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    } 
+}
+@media (max-width: 414px) {
+    .container {
+        max-width: 317px;
+        
+    }     
+    .page-header .mobile {
+        display: block;
+        margin: 0 auto;
+    }
+    .page-header .desctop {
+        display: none;
+    }
+    .page-header__nav {
+        display: none;
+        
+    }
+    .page-header__denis-novik {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        padding: 65px 0 30px 0;  
+        text-align: left;
+    }
+
+    .page-header__denis-novik h1 {
+        margin-bottom: 23px;
+    }
+
+    .skills__skills-items {
+        justify-content: center;
+    }
+    .page-footer .btn {
+        width: 316px;
+    }
+    .page-header__denis-novik p:last-child {
+        display: none;
+    }
+    
 }
