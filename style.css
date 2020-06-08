@@ -257,6 +257,7 @@ h2 {
 .page-footer__social .e:hover,
 .page-footer__social .r:hover {
     transform: scale(1.1);
+    transition: 0.1s;
 }
 
 .page-footer p:last-of-type {
