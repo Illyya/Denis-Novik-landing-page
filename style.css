@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.container {
+    width: 937px;
+    margin: 0 auto;
+}
+
+.page-header__container {
+    width: 944px;
+    margin: 0 auto;
+}
