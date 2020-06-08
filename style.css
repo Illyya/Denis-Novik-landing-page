@@ -88,3 +88,81 @@ h2 {
     padding-bottom: 18px;
 }
 
+.skills {
+    padding: 90px 0 110px 0;
+}
+
+.skills h2 {
+    margin-bottom: 70px;
+}
+
+.skills p {
+    margin-bottom: 87px;
+}
+
+.skills__skills-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-items__photoshop::before {
+    content: "";
+    display: table;
+    width: 89.07px;
+    height: 90px;
+    background: url("img/photoshop.svg") no-repeat;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+
+.skills-items__illustrator::before {
+    content: "";
+    display: table;
+    width: 89.07px;
+    height: 90px;
+    background: url("img/illustrator.svg") no-repeat;
+    margin: 0 auto;
+    margin-bottom: 23px;
+
+}
+.skills-items__after-effects::before {
+    content: "";
+    display: table;
+    width: 89.07px;
+    height: 90px;
+    background: url("img/after\ affects.svg") no-repeat;
+    margin: 0 auto;
+    margin-bottom: 23px;
+
+}
+.skills-items__figma::before {
+    content: "";
+    display: table;
+    width: 59px;
+    height: 90px;
+    background: url("img/figma.svg") no-repeat;
+    margin: 0 auto;
+    margin-bottom: 23px;
+
+}
+
+.skills-items__photoshop::after,
+.skills-items__after-effects::after,
+.skills-items__figma::after {
+    content: "";
+    display: table;
+    width: 167px;
+    height: 26px;
+    background: url("img/4stars.svg") no-repeat;
+    margin-top: 40px;
+}
+
+.skills-items__illustrator::after {
+    content: "";
+    display: table;
+    width: 167px;
+    height: 26px;
+    background: url("img/3stars.svg") no-repeat;
+    margin-top: 40px;
+
+}
