@@ -166,3 +166,21 @@ h2 {
     margin-top: 40px;
 
 }
+
+.portfolio {
+    padding: 113px 0 96px 0;
+    background-color: #F6F6F6;
+
+}
+
+.portfolio h2 {
+    margin-bottom: 47px;
+}
+
+.portfolio img {
+    margin-bottom: 45px;
+}
+
+.portfolio figure:not(:last-child) {
+    margin-bottom: 100px;
+}
