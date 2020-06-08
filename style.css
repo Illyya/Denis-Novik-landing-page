@@ -185,6 +185,11 @@ h2 {
     color: #070707;
 }
 
+.portfolio a:hover {
+    color: #0707077a;
+
+}
+
 .portfolio figure:not(:last-child) {
     margin-bottom: 100px;
 }
@@ -211,6 +216,11 @@ h2 {
     text-decoration: none;
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 86px;
+}
+
+.page-footer .btn:hover {
+    background-color: #ffffff;
+    color: #070707;
 }
 
 .page-footer__social {
@@ -240,6 +250,13 @@ h2 {
     width: 41px;
     height: 41px;
     background: url("img/Group\ 10.svg") no-repeat;
+}
+
+.page-footer__social .q:hover,
+.page-footer__social .w:hover,
+.page-footer__social .e:hover,
+.page-footer__social .r:hover {
+    transform: scale(1.1);
 }
 
 .page-footer p:last-of-type {
