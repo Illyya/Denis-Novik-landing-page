@@ -373,6 +373,8 @@ img {
         height: 4px;
         background-color: black;
         z-index: 60;
+        transition: 0.3s;
+
     }
 
     .page-header__denis-novik span::before,
@@ -386,20 +388,29 @@ img {
         height: 4px;
         background-color: black;
         z-index: 60;
+        transition: 0.3s;
+
 
     }
     .page-header__denis-novik span::after {
         top: 16px;
+        transition: 0.3s;
+
     }
 
     .page-header__nav-mobile.active ~ span {
         transform: rotate(45deg) translateY(10px) translateX(7px);
+        transition: 0.3s;
+
     }
     .page-header__nav-mobile.active ~ span::before {
         transform: rotate(90deg) translateX(-7px);
+        transition: 0.3s;
     }
     .page-header__nav-mobile.active ~ span::after {
         transform: scale(0);
+        transition: 0.3s;
+
     }
 
 
